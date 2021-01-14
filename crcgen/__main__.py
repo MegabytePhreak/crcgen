@@ -72,8 +72,9 @@ def main():
         default=True,
     )
     parser.add_argument(
+        "-R",
         "--no-reflect-input",
-        help="Reflect input data before processing (Default True)",
+        help="Do not reflect input data before processing",
         action="store_false",
         dest="reflect_input",
     )
