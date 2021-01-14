@@ -115,7 +115,7 @@ def gen_vhdl_package(
     lines.append("-- Parallel CRC Calculation Package")
     lines.append("-- CRC width:{} data width: {}".format(len(poly), dwidth))
     lines.append(
-        "-- polynomial: {} ({:X})".format(poly_to_str(poly), poly_to_int(poly))
+        "-- polynomial: {} (0x{:X})".format(poly_to_str(poly), poly_to_int(poly))
     )
     lines.append("-- Generated with crcgen")
     lines.append("-- https://github.com/MegabytePhreak/crcgen")
