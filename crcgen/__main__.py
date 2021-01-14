@@ -81,7 +81,7 @@ def main():
         "-m",
         "--mode",
         type=str,
-        choices=["vhdl_packge"],
+        choices=["vhdl_package"],
         default="vhdl_package",
         help="Type of output file to write",
     )
