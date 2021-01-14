@@ -117,7 +117,8 @@ def gen_vhdl_package(
     lines.append(
         "-- polynomial: {} ({:X})".format(poly_to_str(poly), poly_to_int(poly))
     )
-    lines.append("-- Generated with crcgen.py")
+    lines.append("-- Generated with crcgen")
+    lines.append("-- https://github.com/MegabytePhreak/crcgen")
     lines.append("-- arguments: {}".format(cmdline))
     lines.append("-- SPDX-License-Identifier: 0BSD")
     lines.append("----------------------------------------")
